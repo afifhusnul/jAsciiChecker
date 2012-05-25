@@ -21,8 +21,8 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         // TODO code application logic here
         try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            //UIManager.setLookAndFeel(new NimbusLookAndFeel());
+            //UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            UIManager.setLookAndFeel(new NimbusLookAndFeel());
             java.awt.EventQueue.invokeLater(new Runnable() {
                 @Override
                 public void run() {
