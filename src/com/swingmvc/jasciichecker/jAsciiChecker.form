@@ -60,10 +60,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton3" min="-2" pref="101" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jButton4" pref="349" max="32767" attributes="1"/>
-                  </Group>
+                  <Component id="jButton4" pref="349" max="32767" attributes="1"/>
               </Group>
               <EmptySpace min="32" pref="32" max="-2" attributes="0"/>
           </Group>
@@ -293,6 +290,7 @@
             <Component class="javax.swing.JTextArea" name="jTextArea2">
               <Properties>
                 <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
                 <Property name="rows" type="int" value="5"/>
               </Properties>
             </Component>
